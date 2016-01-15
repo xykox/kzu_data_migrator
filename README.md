@@ -9,8 +9,8 @@ $ rails g kzu_migration_data MigrateUserName
 ````
 ### Similar gems
 
-https://github.com/ajvargo/data-migrate
-https://github.com/ka8725/migration_data
+[data-migrate](https://github.com/ajvargo/data-migrate)
+
 
 ## Dependencies
 
