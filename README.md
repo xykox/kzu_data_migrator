@@ -5,8 +5,25 @@ Use it if you want manipulate data migration completely outside of the schema mi
 
 ### Usage
 ````bash
-$ rails g kzu_migration_data MigrateUserName
+$ rails g kzu_data_migration MigrateUserName
+      create  db/data-migrate/20160115173103_migrate_user_name.rb
 ````
+
+````bash
+$ rake db:data:migrate
+````
+
+Or to a specific version
+
+````bash
+$ rake db:data:migrate:up VERSION=20160115173103
+````
+
+You could also downgrade
+````bash
+$ rake db:data:migrate:down VERSION=20160115173103
+````
+
 ### Similar gems
 
 [data-migrate](https://github.com/ajvargo/data-migrate)
