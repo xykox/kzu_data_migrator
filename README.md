@@ -11,6 +11,7 @@ $ rails g kzu_migration_data MigrateUserName
 
 [data-migrate](https://github.com/ajvargo/data-migrate)
 
+[migration-data](https://github.com/ka8725/migration_data)
 
 ## Dependencies
 
