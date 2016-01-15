@@ -1,0 +1,16 @@
+Description:
+    rails generate a data migration NAME
+
+Example:
+    rails generate kzu_data_migrator Thing
+
+    This will create:
+
+    class Thing < KzuDataMigrator::Migration
+      def self.up
+      end
+
+      def self.down
+        raise IrreversibleMigration
+      end
+    end

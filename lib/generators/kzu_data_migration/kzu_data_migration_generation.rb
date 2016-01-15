@@ -1,4 +1,4 @@
-class KzuDataMigratorGenerator < Rails::Generators::NamedBase
+class KzuDataMigratorGeneration < Rails::Generators::NamedBase
   source_root File.expand_path('../templates', __FILE__)
   include Rails::Generators::Migration
 

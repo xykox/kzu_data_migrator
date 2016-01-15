@@ -1,8 +1,0 @@
-Description:
-    Explain the generator
-
-Example:
-    rails generate kzu_data_migrator Thing
-
-    This will create:
-        what/will/it/create
