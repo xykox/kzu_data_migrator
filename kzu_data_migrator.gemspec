@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = KzuDataMigrator::VERSION
   s.authors     = ["Jean Marc Delafont"]
   s.email       = ["jmdelafont@xykox.net"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of KzuDataMigrator."
-  s.description = "TODO: Description of KzuDataMigrator."
+  s.homepage    = "https://github.com/xykox/kzu_data_migrator"
+  s.summary     = "Another data migrator to separate data migration from schema migration"
+  s.description = "Another data migrator to separate data migration from schema migration"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
