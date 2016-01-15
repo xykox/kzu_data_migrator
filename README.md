@@ -33,10 +33,13 @@ $ rake db:data:migrate:down VERSION=20160115173103
 ## Dependencies
 
 Rails 4.2
-ActiveRecord
+
+ActiveRecord 4.2
 
 ## TODO
 
 * Capistrano task
 * tasks to migrate schema and data in one go
+* tests
+* Rails 4.x
 
