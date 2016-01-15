@@ -1,6 +1,6 @@
 # KzuDataMigrator
 
-Use it if you want manipulate data migration outside of the schema migration process.
+Use it if you want manipulate data migration completely outside of the schema migration process.
 
 
 ### Usage
